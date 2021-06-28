@@ -1,0 +1,67 @@
+
+<?php require 'task2.php' ?> 
+<!DOCTYPE html>
+
+<html>
+<html lang = "en" dir="1tr">
+
+<head>
+<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="task2.css">
+<title>Control Panel</title>
+
+</head>
+
+<body style="background-color: black">
+
+<iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+
+
+<div class = "container">
+
+<form id= "myForm" action="task2.php" method="POST" target = "dummyframe" >
+
+
+<fieldset class = "field_set">	
+
+<legend> <h1 style = "background-color: #296084 ;  color:white ; font-family: serif; "> Control Panel Robot </h1></legend>
+
+<p></p>
+
+<input style=" margin-right: 140px;margin-left: 140px;
+background-color: #97cef2 ; font-weight: bold;
+border:thick solid #659cc0 ; 
+" type="submit" value=" FORWARDS "><br><br>
+
+<input style=" margin-right: 20px;  margin-left: 20px;
+background-color: #97cef2 ; font-weight: bold;
+border:thick solid #659cc0 ; 
+" type="submit" value="       LEFT      "> 
+
+
+ <input style="margin-right: 20px; margin-left: 7px; 
+ background-color: #3796ff;  font-weight: bold;
+ border:thick solid #659cc0 ; 
+ " type="submit" value=
+ "       STOP      ">  
+
+<input  style="margin-right: 15px; margin-left: 10px;
+background-color: #97cef2 ; font-weight: bold;
+border:thick solid #659cc0 ; 
+ " type="submit" value="       RIGHT      "><br><br>
+
+
+
+<input style=" margin-right: 140px; margin-left: 140px;
+background-color: #97cef2 ; font-weight: bold;
+border:thick solid #659cc0 ; 
+"type="submit"  value="BACKWARDS"  >
+
+</fieldset>
+
+</form>
+</div>
+
+</body>
+
+</html>
