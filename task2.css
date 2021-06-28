@@ -1,0 +1,24 @@
+fieldset{
+	border: 5px solid white ;
+  	margin-top: 300px;
+  	margin-bottom: 100px;
+  	margin-right: 320px;
+  	margin-left: 350px;
+  	background-color: #7bc6ff;
+  	 }
+
+    body{
+  	
+  	display: grid;
+  	height: 100% ;
+  	text-align: center;
+  	place-items: center;
+  	background-image: url('R2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .field_set{
+ border-color:#125c8d;
+}
